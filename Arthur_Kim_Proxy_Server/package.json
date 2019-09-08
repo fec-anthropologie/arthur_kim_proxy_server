@@ -8,7 +8,7 @@
     "start": "nodemon ./proxy-server/index.js",
     "build": "webpack -w"
   },
-  "proxy": "http://localhost:5000",
+  "proxy": "http://localhost:3000",
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -25,6 +25,7 @@
     "morgan": "^1.9.1",
     "nodemon": "^1.19.2",
     "path": "^0.12.7",
+    "promise": "^8.0.3",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "webpack": "^4.39.3",
